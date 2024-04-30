@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Mooli&display=swap');
+:root{
+    --main-font: "Mooli", sans-serif;
+    --highlight-font: "Chicle", serif;
+
+    --bg-color: #F9F6EE;
+    --main-color: #4A90E2;
+    --scnd-main-color: #6ECA42; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--bg-color);
+    font-family: var(--main-font)
+}
