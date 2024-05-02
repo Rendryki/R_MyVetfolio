@@ -1,0 +1,28 @@
+#portfolio-intro{
+    background-color: var(--main-color);
+    margin: 0px;
+    padding: 80px;
+    text-align: center;
+}
+
+#portfolio-intro h2{
+    background-color: transparent;
+    color: var(--bg-color);
+    font-family: var(--highlight-font);
+    font-size: 4em;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 0.3em;
+    padding: 10px 0px;
+}
+
+#portfolio-intro p{
+    background-color: transparent;
+    color: var(--bg-color);
+    font-size: 1.2em;
+    font-weight: lighter;
+    width: 65%;
+    margin: auto;
+    text-align: left;
+    padding: 10px 0px;
+}

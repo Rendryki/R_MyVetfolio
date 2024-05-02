@@ -1,0 +1,181 @@
+#sobre-mim-page{
+    margin: 0px auto;
+    width: 100%;
+    border-top: 2px solid var(--main-color);
+}
+
+#sobre-mim-intro{
+    display: flex;
+    margin: 100px auto 0px;
+    width: 80%;
+}
+
+#intro-cow-pic{
+    width: 250px;
+    height: 100%;
+    border-radius: 100px;
+}
+
+#sobre-mim-intro-text-wrapper{
+    margin: 50px;
+}
+
+#sobre-mim-intro-text-wrapper h2{
+    font-family: var(--highlight-font);
+    letter-spacing: 0.3em;
+    font-size: 4em;
+    color: var(--main-color);
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#sobre-mim-intro-text-wrapper p{
+    padding: 20px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+}
+
+#sobre-mim-my-name{
+    display: flex;
+    margin: 50px auto;
+    width: 80%;
+}
+
+#tuxedo-pic{
+    width: 350px;
+    height: 100%;
+    border-radius: 500px;
+}
+
+#my-name-text-wrapper{
+    margin: 50px;
+}
+
+#my-name-text-wrapper h2{
+    font-family: var(--highlight-font);
+    letter-spacing: 0.3em;
+    font-size: 4em;
+    color: var(--main-color);
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#my-name-text-wrapper p{
+    padding: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
+}
+
+#sobre-mim-studying{
+    display: flex;
+    margin: 50px auto 0px;
+    width: 60%;
+    text-align: center;
+}
+
+#studying-pic{
+    width: 200px;
+    height: 100%;
+    margin: 10px auto;
+    border-radius: 300px;
+}
+
+#sobre-mim-text-wrapper p{
+    padding: 20px 0px;
+    font-family: var(--highlight-font);
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 100%;
+    margin: 20px auto;
+}
+
+#arrow-icon{
+    width: 80px;
+    margin-left: 90%;
+}
+
+#sobre-mim-snoopy{
+    display: flex;
+    margin: 0px auto;
+    width: 80%;
+}
+
+#me-and-snoopy-pic{
+    width: 250px;
+    height: 100%;
+    border-radius: 200px;
+    margin: 0px auto;
+}
+
+#sobre-mim-snoopy-text-wrapper{
+    margin: 100px;
+}
+
+#sobre-mim-snoopy-text-wrapper p{
+    padding: 20px 0px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0px auto;
+}
+
+#sobre-mim-sports{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 90%;
+}
+
+#arena-mrv-pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% -20;
+    border-radius: 50px;
+    margin: 0px auto 50px;
+}
+
+#sobre-mim-sports-text-wrapper{
+    margin: 0px 50px;
+}
+
+#sobre-mim-sports-text-wrapper h2{
+    font-family: var(--highlight-font);
+    letter-spacing: 0.3em;
+    font-size: 4em;
+    color: var(--main-color);
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#sobre-mim-sports-text-wrapper p{
+    padding: 20px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+}
+
+#sobre-mim-ending{
+    display: flex;
+    margin: 50px auto 100px;
+    width: 70%;
+}
+
+#ending-pic{
+    width: 200px;
+    height: 100%;
+    border-radius: 500px;
+}
+
+#sobre-mim-ending-text-wrapper{
+    margin: 50px 0px;
+}
+
+#sobre-mim-ending-text-wrapper p{
+    padding: 20px 0px;
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
+}

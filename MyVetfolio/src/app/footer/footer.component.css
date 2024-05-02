@@ -1,0 +1,10 @@
+#footer p{
+    font-weight: bolder;
+    color: var(--bg-color);
+    letter-spacing: 0.1em;
+    margin: auto;
+    text-align: center;
+    font-size: 0.8em;
+    background-color: var(--main-color);
+    padding: 10px 0px;
+}

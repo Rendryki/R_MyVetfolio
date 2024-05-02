@@ -2,7 +2,6 @@
     display: flex;
     margin: 10px auto;
     padding: 0px 20px;
-    width: 100%;
     height: 35px;
     align-items: center;
 }
@@ -13,12 +12,14 @@
 }
 
 #navbar-logo{
-    position: fixed;
+    position: absolute;
     right: 20px;
+    background-color: transparent;
 }
 
 #navbar-logo-image{
     width: 150px;    
+    background-color: transparent;
 }
 
 .navbar-item{

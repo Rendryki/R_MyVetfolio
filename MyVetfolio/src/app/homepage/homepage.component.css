@@ -1,0 +1,171 @@
+#homepage-app-intro{
+    background-color: var(--main-color);
+    margin: 0px;
+    padding: 80px;
+    text-align: center;
+}
+
+#logo-myvetfolio-img{
+    margin: 0px auto;
+    padding: 20px;
+    width: 40%;
+    background-color: transparent;
+}
+
+#homepage-app-intro h2{
+    background-color: transparent;
+    color: var(--bg-color);
+    font-size: 1.2em;
+    font-weight: lighter;
+    width: 65%;
+    margin: auto;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+strong{
+    font-family: var(--highlight-font);
+    background-color: transparent;
+    letter-spacing: 0.3em;
+}
+
+#homepage-body{
+    width: 80%;
+    margin: 50px auto;
+}
+
+#homepage-body-intro{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+#intro-photo{
+    width: 25%;
+    height: 25%;
+    border-radius: 300px;
+}
+
+#intro-text{
+    margin: 60px auto;
+    padding: 0px 0px 0px 30px;
+    width: 80%;
+}
+
+#intro-text p{
+    padding: 20px;
+    font-weight: bold;
+}
+
+h1{
+    font-family: var(--highlight-font);
+    color: var(--main-color);
+    letter-spacing: 0.3em;
+    font-size: 4em;
+}
+
+#homepage-body-portfolio{
+    margin: 50px auto;
+}
+
+#cat-crossing-p1{
+    position: absolute;
+    background-color: transparent;
+    width: 150px;
+    left: 450px;
+    top: 790px;
+}
+
+#portfolio-text{
+    margin: 30px auto;
+}
+
+#portfolio-text p{
+    padding: 20px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+}
+
+#homepage-body-curiosidades h1{
+    margin: 100px auto 30px;
+    text-align: end;
+}
+
+#cat-crossing-p2{
+    position: absolute;
+    background-color: transparent;
+    width: 220px;
+    left: 540px;
+    top: 1140px;
+}
+
+#curiosidades-text p{
+    padding: 20px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+}
+
+#homepage-body-mundo-vet h1{
+    margin: 100px auto 30px;
+}
+
+#cat-crossing-p3{
+    position: absolute;
+    background-color: transparent;
+    width: 230px;
+    left: 490px;
+    top: 1470px;
+}
+
+
+#mundo-vet-text p{
+    padding: 20px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+}
+
+#homepage-body-sobre-mim h1{
+    margin: 100px auto 30px;
+    text-align: end;
+}
+
+#cat-crossing-p4{
+    position: absolute;
+    background-color: transparent;
+    width: 220px;
+    left: 640px;
+    top: 1800px;
+}
+
+#sobre-mim-text p{
+    padding: 20px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+}
+
+#homepage-bottom{
+    width: 80%;
+    margin: 150px auto 50px;
+}
+
+#homepage-bottom-img{
+    width: 130px;
+    position: absolute;
+    background-color: transparent;
+    top: 2170px;
+    right: 300px;
+}
+
+#homepage-bottom p{
+    font-weight: bold;
+    text-align: center;
+    color: var(--main-color);
+}
+
+#homepage-bottom strong{
+    font-size: 1.2em;
+}
