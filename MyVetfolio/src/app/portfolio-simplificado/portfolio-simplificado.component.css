@@ -1,0 +1,73 @@
+#portfolio-simplificado-page{
+    width: 100%;
+    margin: 10px auto;
+}
+
+#portfolio-simplificado-habilidades{
+    margin: 0px auto 150px;
+}
+
+#portfolio-simplificado-page h2{
+    font-size: 2em;
+    font-family: var(--highlight-font);
+    color: var(--main-color);
+    letter-spacing: 0.3em;
+    font-size: 4em;
+    margin: 10px auto;
+}
+
+#ufv, #ifmg, #UEPE, #idiomas{
+    width: 90%;
+    margin: 60px auto;
+}
+
+.instituicao, .location-work, #idiomas-wrapper{
+    display: flex;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: var(--main-color);
+    letter-spacing: 0.1em;
+    align-items: center;
+}
+
+.course, .work-fuctions{
+    display: flex;
+    margin: 20px 50px;
+    align-items: center;
+}
+
+.instituicao-img, .location-work-img, #idiomas-img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+}
+
+.course-img, .work-fuctions-img, .lang-img{
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px;
+}
+
+#idiomas-list{
+    margin: 20px 50px;
+    width: 90% auto;
+}
+
+#idiomas-list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#dog-sit{
+    width: 200px;
+    position: absolute;
+    background-color: transparent;
+    top: 1400px;
+    right: 100px;
+}
+
+
+

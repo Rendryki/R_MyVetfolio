@@ -26,3 +26,27 @@
     text-align: left;
     padding: 10px 0px;
 }
+
+#portfolio-content{
+    width: 80%;
+    margin: 50px auto;
+}
+
+#btn-portfolio-type-wrapper{
+    width: 90%;
+    margin: 0px auto;
+    text-align: end;
+}
+
+#btn-portfolio-type{
+    width: 200px;
+    padding: 5px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    font-family: var(--highlight-font);
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}   

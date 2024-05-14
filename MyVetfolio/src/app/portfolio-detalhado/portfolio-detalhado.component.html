@@ -1,0 +1,193 @@
+<div id="portfolio-detalhado-page">
+
+    <div id="portfolio-detalhado-academico">
+        
+        <h2>Histórico Acadêmico</h2>
+        
+        <div id="ufv">
+            
+            <div class="instituicao">
+                <img class="instituicao-img" src="../../assets/images/portfolio-icons/university.png" alt="icon universidade">
+                <p class="instituicao-name">Universidade Federal de Viçosa | 01/2024 - Em Curso</p>
+            </div>
+
+            <div class="course">
+                <img class="course-img" src="../../assets/images/portfolio-icons/cow.png" alt="icon cow">
+                <p class="course-name">Graduação em Medicina Veterinária.</p>
+            </div>
+
+        </div>
+
+        <div id="puc">
+            
+            <div class="instituicao">
+                <img class="instituicao-img" src="../../assets/images/portfolio-icons/university.png" alt="icon universidade">
+                <p class="instituicao-name">Pontifícia Universidade Católica de Minas Gerais | 07/2022 - Interrompido em 12/2023</p>
+            </div>
+
+            <div class="course">
+                <img class="course-img" src="../../assets/images/portfolio-icons/information-systems.png" alt="icon cow">
+                <p class="course-name">Graduação em Sistemas de Informação.</p>
+            </div>
+
+        </div>
+
+        <div id="ufmg">
+            
+            <div class="instituicao">
+                <img class="instituicao-img" src="../../assets/images/portfolio-icons/university.png" alt="icon universidade">
+                <p class="instituicao-name">Universidade Federal de Minas Gerais | 01/2022 - Interrompido em 0/2022</p>
+            </div>
+
+            <div class="course">
+                <img class="course-img" src="../../assets/images/portfolio-icons/eletrical-engeneering.png" alt="icon cow">
+                <p class="course-name">Graduação em Engenharia Elétrica.</p>
+            </div>
+
+        </div>
+
+        <div id="ifmg">
+
+            <div class="instituicao">
+                <img class="instituicao-img" src="../../assets/images/portfolio-icons/student.png" alt="icon student">
+                <p class="instituicao-name">Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais - Campus Ibirité | 01/2019 - 12/2021</p>
+            </div>
+
+            <div class="course">
+                <img class="course-img" src="../../assets/images/portfolio-icons/engeneering.png" alt="icon engeneering">
+                <p class="course-name">Ensino médio e técnico integrado em Automação Industrial.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="portfolio-detalhado-profissional">
+
+        <h2>Histórico Profissional</h2>
+
+        <div id="UEPE">
+
+            <div class="location-work">
+                <img class="location-work-img" src="../../assets/images/portfolio-icons/cow-head.png" alt="icon cow head">
+                <p class="location-work-name">Unidade de ensino, pesquisa e extensão em gado de leite - UFV | 03/2024 - 06/2024</p>
+            </div>
+
+            <div class="work-fuctions">
+                <img class="work-fuctions-img" src="../../assets/images/portfolio-icons/cow.png" alt="icon cow">
+                <p class="work-fuctions-descrition">Estágio não remunerado voluntário na condução do experimento científico: “Efeito dos níveis crescentes de proteína solúvel da dieta de novilhas holandesas”.</p>
+            </div>
+        </div>
+
+        <div id="Freeart">
+
+            <div class="location-work">
+                <img class="location-work-img" src="../../assets/images/portfolio-icons/industry.png" alt="icon cow head">
+                <p class="location-work-name">Freeart Industria e Comércio | 11/2023 - 01/2024</p>
+            </div>
+
+            <div class="work-fuctions">
+                <img class="work-fuctions-img" src="../../assets/images/portfolio-icons/worker.png
+                " alt="icon cow">
+                <p class="work-fuctions-descrition">Auxiliar geral.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="portfolio-detalhado-certificados">
+
+        <h2>Certificados</h2>
+
+        <div id="certificados">
+            <ul id="certificados-list">
+                <li>
+                    <img class="cert-img" src="../../assets/images/portfolio-icons/java.png" alt="Java icon">
+                    <p>Fullstack Java+Angular | Santander Bootcamp - 2023</p>
+                </li>
+
+                <li>
+                    <img class="cert-img" src="../../assets/images/portfolio-icons/javascript.png" alt="javascript icon">
+                    <p>JavaScript Avançado | Plataforma +IFMG - 2023</p>
+                </li>
+
+                <li>
+                    <img class="cert-img" src="../../assets/images/portfolio-icons/programing.png" alt="programing icon">
+                    <p>Programador Web em Tecnologias Front-end | Plataforma +IFMG - 2023</p>
+                </li>
+
+                <li>
+                    <img class="cert-img" src="../../assets/images/portfolio-icons/programing.png" alt="programing icon">
+                    <p>Programação Web Avançado | Plataforma +IFMG - 2023</p>
+                </li>
+                
+                <li>
+                    <img class="cert-img" src="../../assets/images/portfolio-icons/webdesign.png" alt="web design icon">
+                    <p>Web Designer | Plataforma +IFMG - 2023</p>
+                </li>
+
+                <li>
+                    <img class="cert-img" src="../../assets/images/portfolio-icons/javascript.png" alt="javascript icon">
+                    <p>JavaScript Básico | Plataforma +IFMG - 2022</p>
+                </li>
+                
+                <li>
+                    <img class="cert-img" src="../../assets/images/portfolio-icons/robot.png" alt="robot icon">
+                    <p>Robótica | IFMG Ibirité - 2020</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="portfolio-detalhado-projetos" *ngIf="ArrRepositories.length != 0">
+        <h2>Projetos</h2>
+
+        <div id="projetos" *ngIf="ArrFilled">
+
+            <div class="project-self" *ngFor="let p of ArrRepositories">
+
+                <div class="project-details-wrapper">
+                    <p class="project-name">{{p.name}}</p>
+                    <p class="project-details"><strong>{{p.Programing_Language}}</strong></p>
+                    <p class="project-details"><strong>{{p.LastCommitDate}}</strong></p>    
+                </div>
+                <a class="github-button" href="{{p.url}}" target="_blank">Ver no Github</a>
+                
+            </div>
+    
+        </div>
+
+    </div>
+
+    <div id="portfolio-detalhado-habilidades">
+
+        <h2>Habilidades</h2>
+
+        <div id="idiomas">
+            <div id="idiomas-wrapper">
+                <img id="idiomas-img" src="../../assets/images/portfolio-icons/idiomas.png" alt="icon languages">
+                <p>Idiomas</p>    
+            </div>
+
+            <ul id="idiomas-list">
+                <li>
+                    <img class="lang-img" src="../../assets/images/portfolio-icons/ingles.png" alt="icon english">
+                    <p>Inglês - Fluente</p>
+                </li>
+
+                <li>
+                    <img class="lang-img" src="../../assets/images/portfolio-icons/espanhol.png" alt="icon espanõl">
+                    <p>Espanhol - Básico</p>
+                </li>
+
+                <li>
+                    <img class="lang-img" src="../../assets/images/portfolio-icons/frances.png" alt="icon français">
+                    <p>Francês - Básico</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>

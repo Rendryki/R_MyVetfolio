@@ -29,13 +29,80 @@
     font-weight: bold;
 }
 
-#curiosidades{
+#curiosidades, #quizz{
     width: 80%;
     margin: 50px auto;
+    text-align: center;
 }
-#curiosidades h2{
+#curiosidades h2, #quizz h2{
     font-family: var(--highlight-font);
     color: var(--main-color);
     letter-spacing: 0.3em;
     font-size: 4em;
+    text-align: left;
+}
+
+#small-array-curiosidades, #big-array-curiosidades{
+    margin: 50px auto;
+    width: 90%;
+}
+
+.array-items{
+    margin: 40px auto;
+    font-weight: bold;
+}
+
+.array-items:nth-child(odd){
+    text-align: left;
+}
+
+.array-items:nth-child(even){
+    text-align: right;
+}
+
+#button-see-more-less{
+    background-color: var(--bg-color);
+    border: 2px solid var(--main-color);
+    font-family: var(--highlight-font);
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    color: var(--main-color);
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    padding: 5px 10px;
+}
+
+#quizz a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#quizz p{
+    text-align: left;
+    margin: 10px 0px;
+}
+
+#quizz-iframe{
+    margin: 50px auto 0px;
+    width: 90%;
+    height: 500px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
+
+#quizz #alert-message{
+    text-align: center;
+    margin:50px auto;
+    width: 100%;
+    color: var(--main-color);
+}
+
+#alert-message strong{
+    font-family: var(--highlight-font);
+    letter-spacing: 0.3em;
+    font-size: 1.2em;
 }

@@ -1,0 +1,117 @@
+#portfolio-detalhado-page{
+    width: 100%;
+    margin: 10px auto;
+}
+
+#portfolio-detalhado-page h2{
+    font-size: 2em;
+    font-family: var(--highlight-font);
+    color: var(--main-color);
+    letter-spacing: 0.3em;
+    font-size: 4em;
+    margin: 10px auto;
+}
+
+#ufv, #puc, #ufmg, #ifmg, #UEPE, #Freeart, #idiomas, #certificados, #projetos{
+    width: 90%;
+    margin: 60px auto;
+}
+
+#projetos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.instituicao, .location-work, #idiomas-wrapper{
+    display: flex;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: var(--main-color);
+    letter-spacing: 0.1em;
+    align-items: center;
+}
+
+.course, .work-fuctions{
+    display: flex;
+    margin: 20px 50px;
+    align-items: center;
+}
+
+.instituicao-img, .location-work-img, #idiomas-img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+}
+
+.course-img, .work-fuctions-img, .lang-img, .cert-img{
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px;
+}
+
+#idiomas-list, #certificados-list{
+    margin: 10px 50px;
+    width: 90% auto;
+}
+
+#idiomas-list li, #certificados-list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.project-self{
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--main-color);
+    min-width: 40%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+.project-self .project-name{
+    font-family: var(--main-font);
+    color: var(--bg-color);
+    font-size: 1.2em;
+    background-color: transparent;
+}
+
+.project-self strong{
+    color: var(--bg-color);
+    font-style: italic;
+    font-size: 0.8em;
+    font-weight: lighter;
+    background-color: transparent;
+}
+
+.github-button{
+    width: fit-content;
+    padding: 5px 10px;
+    font-family: var(--highlight-font);
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--main-color);
+    border: 1px solid var(--bg-color);
+    border-radius: 20px;
+    background-color: var(--bg-color);
+    align-self: center;
+    text-align: center;
+}
+
+.project-details{
+    font-size: 1em;
+    font-style: italic;
+    background-color: transparent;
+    display: inline;
+    padding: 10px;
+}
+
+.project-details-wrapper{
+    background-color: transparent;
+    width: 90%;
+}

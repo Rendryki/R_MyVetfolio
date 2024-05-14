@@ -7,11 +7,40 @@
 
     </div>
 
-    <p>Essa é a aba “Curiosidades”, nessa aba você poderá aprender um pouquinho mais sobre os animais e a Medicina Veterinária.</p>
+    <p>Essa é a aba “Curiosidades”, nessa aba você poderá ver um pouquinho sobre algumas curiosidades curtas e simples sobre o mundo animal.</p>
     <p> Te garanto que pelo menos uma coisa nova você vai aprender por aqui (a não ser que você já seja um médico veterinário).</p>
 
-    <div id="curiosidades">
+    <div id="curiosidades" *ngIf="ArrayFilled == true">
+
         <h2>Curiosidades</h2>
-        
+
+        <div id="small-array-curiosidades" *ngIf="SmallArray == true">
+            <div class="array-items" *ngFor="let c of CuriosidadesArrSmallLength">
+                <img width="20px" src="../../assets/images/icons/leftarrow-removebg-preview.png" alt="">
+                {{c}}            
+            </div>    
+        </div>
+
+        <div id="big-array-curiosidades" *ngIf="SmallArray == false">
+            <div class="array-items" *ngFor="let c of CuriosidadesArr">
+                <img width="20px" src="../../assets/images/icons/leftarrow-removebg-preview.png" alt="">
+                {{c}}            
+            </div>    
+        </div>
+
+        <button id="button-see-more-less" (click)="GetMoreCuriosidades()">{{SeeMoreSeeLess}}</button>
+
     </div>
+
+    <div id="quizz">
+        <h2>Quizzes</h2>
+        
+        <p>Quer desafiar seus conhecimentos sobre vet? faça algum dos Quizzes a seguir:</p>
+
+        <iframe id="quizz-iframe" [src]="trustedUrlMSDVetManual"></iframe>
+        <a href="https://www.msdvetmanual.com/pages-with-widgets/quizzes?mode=list" target="_blank">www.msdvetmanual.com/pages-with-widgets/quizzes?mode=list</a>
+
+        <p id="alert-message"><strong>Obs: </strong>Os quizzes estão disponíveis em sites de terceiros.</p>
+    </div>
+    
 </div>

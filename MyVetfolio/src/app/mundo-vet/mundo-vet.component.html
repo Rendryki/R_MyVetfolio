@@ -14,9 +14,27 @@
 
     </div>
 
-    <div id="mundo-vet-areas-atuacao">
+    <div id="mundo-vet-areas-atuacao" *ngIf="ArrayFilled == true">
 
         <h2>Areas de atuação</h2>
+
+        <div id="small-array-areas" *ngIf="SmallArray == true">
+            <div class="array-items" *ngFor="let c of AreasSmallLength">
+                {{c}}
+            </div>
+        </div>
+        
+        <div id="big-array-areas" *ngIf="SmallArray == false">
+            <div class="array-items" *ngFor="let c of AreasArr">
+                {{c}}
+            </div>
+        </div>
+        
+        <div class="link-wrapper"><a class="origin-link" href="https://www.crmvse.org.br/areas-de-atuacao-do-medico-veterinario/" target="_blank">www.crmvse.org.br/areas-de-atuacao-do-medico-veterinario/</a></div>
+
+        <div id="btn-wrapper">
+            <button id="button-see-more-less" (click)="GetMoreAreas()">{{SeeMoreSeeLess}}</button>
+        </div>
 
     </div>
 
