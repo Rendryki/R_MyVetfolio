@@ -53,8 +53,39 @@
 
         <h2>Me mande uma mensagem</h2>
 
-        <div id="send-message-form">
-            PLACEHOLDER
+        <div [formGroup]="form" id="send-message-form">
+
+            <form id="form-action" action="javascript:void(0)" (submit)="send()">
+                
+                <div class="form-item">
+                    <label for="from_name">Nome:</label>
+                    <input class="form-input" type="text" formControlName="from_name" name="name" id="formname" placeholder="Nome" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="from_email">E-mail:</label>
+                    <input class="form-input" type="email" formControlName="from_email" name="email" id="formemail" placeholder="Seu E-mail" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="from_number">Número:</label>
+                    <input class="form-input" type="number" formControlName="from_number" name="number" id="formnumber" placeholder="Seu número" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="from_subject">Assunto:</label>
+                    <input class="form-input" type="text" formControlName="from_subject" name="name" id="formsubject" placeholder="Assunto:" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="message">Mensagem:</label>
+                    <textarea class="form-input" maxlength="500" type="text" formControlName="message" name="message" id="formmessage" placeholder="mensagem" required></textarea>
+                </div>
+                
+                <input class="form-item-submit-button" type="submit" value="Enviar Mensagem">
+    
+            </form>
+           
         </div>
 
     </div>

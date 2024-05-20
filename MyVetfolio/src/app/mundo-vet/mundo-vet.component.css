@@ -38,6 +38,38 @@
     padding: 10px 0px;
 }
 
+#mundo-vet{
+    width: 100%;
+    margin: 0px auto;
+}
+
+#mundo-vet p{
+    width: 80%;
+    margin: 0px auto 10px;
+}
+
+#mundo-vet-salarios{
+    width: 100%;
+    margin: 50px auto;
+}
+
+#mundo-vet-graficos{
+    width: 80%;
+    margin: 50px auto 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.mundo-vet-graph-images{
+    width: 300px;
+    align-self: center;
+    margin: 0px auto;
+    border: 1px solid var(--scnd-main-color);
+    border-radius: 10px;
+
+}
+
 #mundo-vet-areas-atuacao{
     width: 100%;
     margin: 0px auto;
@@ -90,4 +122,15 @@
     text-align: end;
     width: 80%;
     margin: 20px auto;
+}
+
+#mundo-vet-faculdades{
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+}
+
+#mundo-vet-table{
+    margin: 10px auto 50px;
+    width: 80%;
 }
