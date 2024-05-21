@@ -106,3 +106,13 @@
     letter-spacing: 0.3em;
     font-size: 1.2em;
 }
+
+@media only screen and (max-width: 780px){
+    #curiosidades-intro h2{
+        font-size: 6vw;
+    }
+
+    #curiosidades h2, #quizz h2{
+        font-size: 8vw;
+    }
+}

@@ -50,3 +50,19 @@
     font-size: 1.2em;
     letter-spacing: 0.1em;
 }   
+
+@media only screen and (max-width: 699px){
+    #portfolio-intro p{
+        width: 95%;
+        margin: 0px auto;
+        padding: 10px 0px;
+    }
+
+    #portfolio-intro h2{
+        font-size: 10vw;
+    }
+
+    #portfolio-intro{
+        padding: 80px 20px;
+    }
+}

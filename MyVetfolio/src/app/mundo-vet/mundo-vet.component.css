@@ -134,3 +134,36 @@
     margin: 10px auto 50px;
     width: 80%;
 }
+
+@media only screen and (max-width: 760px){
+    #mundo-vet-intro h2{
+        font-size: 10vw;
+    }
+
+    #mundo-vet-intro{
+        width: 100%;
+        margin: 0px auto;
+        padding: 80px 0px;
+    }
+
+    #mundo-vet-intro p{
+        width: 80%;
+    }
+
+    #mundo-vet h2, #mundo-vet-areas-atuacao h2, #mundo-vet-faculdades h2{
+        font-size: 8vw;
+    }
+
+    .mundo-vet-graph-images{
+        width: 70%;    
+        margin: 10px auto;
+    }
+
+    #mundo-vet-table{
+        width: 80%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+}

@@ -169,3 +169,136 @@ h1{
 #homepage-bottom strong{
     font-size: 1.2em;
 }
+
+@media only screen and (min-width: 1201px){
+    #cat-crossing-p1, #cat-crossing-p2, #cat-crossing-p3, #cat-crossing-p4{
+        display: none;
+    }
+
+    #homepage-bottom-img{
+        position: static;
+    }
+
+    #logo-myvetfolio-img{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width:900px) {
+    #cat-crossing-p1{
+        width: 120px;
+        left: 400px;
+        top: 790px;
+    }
+
+    #cat-crossing-p2{
+        width: 170px;
+        left: 500px;
+        top: 1150px;
+    }
+
+    #cat-crossing-p3{
+        width: 180px;
+        left: 460px;
+        top: 1510px;
+    }
+
+    #cat-crossing-p4{
+        width: 180px;
+        left: 500px;
+        top: 1860px;
+    }
+
+    #homepage-bottom-img{
+        width: 100px;
+        top: 2250px;
+        right: 200px;
+    }
+}
+
+@media only screen and (max-width: 899px) and (min-width:700px) {
+    #cat-crossing-p1{
+        left: 370px;
+        top: 845px;
+    }
+
+    #cat-crossing-p2{
+        left: 350px;
+        top: 1200px;
+    }
+
+    #cat-crossing-p3{
+        left: 420px;
+        top: 1550px;
+    }
+
+    #cat-crossing-p4{
+        left: 350px;
+        top: 1920px;
+    }
+
+    #homepage-bottom-img{
+        width: 100px;
+        position: static;
+    }
+
+    #intro-photo{
+        width: 40%;
+        height: 40%;
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    #cat-crossing-p1, #cat-crossing-p2, #cat-crossing-p3, #cat-crossing-p4{
+        display: none;
+    }
+
+    #homepage-bottom-img{
+        width: 100px;
+        position: static;
+    }
+
+    #intro-photo{
+        width: 50%;
+        height: 50%;
+        margin: 0px auto;
+    }
+
+    #homepage-body-intro{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        margin-top: 0px;
+        font-size: 7vw;
+    }
+
+    #homepage-body-curiosidades, #homepage-body-mundo-vet, #homepage-body-sobre-mim{
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    #intro-text p{
+        padding: 20px 0px;
+    }
+
+    #intro-text{
+        width: 90%;
+        margin: 0px auto;
+        padding: 0px;
+    }
+
+    #logo-myvetfolio-img{
+        width: 80%;
+    }
+    
+    #homepage-app-intro{
+        width: 100%;
+        padding: 40px 0px;
+        margin: 0px auto;
+    }
+
+}

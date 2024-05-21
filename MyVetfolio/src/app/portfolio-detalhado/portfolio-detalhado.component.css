@@ -115,3 +115,36 @@
     background-color: transparent;
     width: 90%;
 }
+
+@media only screen and (max-width: 699px){
+    #portfolio-detalhado-page h2{
+        font-size: 7vw;
+    }
+
+    #ufv, #puc, #ufmg, #ifmg, #UEPE, #Freeart, #idiomas, #certificados, #projetos{
+        width: 100%;
+        margin: 30px auto;
+    }
+    
+    .instituicao, .location-work, #idiomas-wrapper{
+        margin: 10px;
+    }
+
+    .project-self .project-name{
+        font-size: 2vw;
+    }
+
+    .project-self strong{
+        font-size: 1vw;
+    }
+    
+    .github-button{
+        font-size: 1.5vw;
+    }
+
+    .project-details{
+        font-size: 1.5vw;
+        padding: 5px;
+    }
+    
+}

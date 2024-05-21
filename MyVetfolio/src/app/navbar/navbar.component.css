@@ -41,3 +41,25 @@
     margin-bottom: 2px;
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 899px) and (min-width:700px){
+    #navbar-logo{
+        right: 10px;
+    }
+}
+
+@media only screen and (max-width: 699px){
+    #navbar-logo{
+        display: none;
+    }
+
+    #navbar-itens{
+        margin: 5px auto;
+        font-size: 2vw;
+    }
+
+    .navbar-item{
+        padding: 7px;
+        background: transparent;
+    }
+}

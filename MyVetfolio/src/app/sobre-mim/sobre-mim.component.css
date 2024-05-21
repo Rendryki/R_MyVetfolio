@@ -179,3 +179,118 @@
     width: 100%;
     margin: auto;
 }
+
+@media only screen and (max-width: 900px) and (min-width: 750px){
+    #sobre-mim-intro{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #intro-cow-pic{
+        width: 150px;
+        height: 100%;
+    }
+
+    #sobre-mim-my-name{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #tuxedo-pic{
+        width: 250px;
+    }
+
+    #studying-pic{
+        width: 50%;
+        margin-left: 50px;
+    }
+
+    #sobre-mim-studying{
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 749px){
+    #sobre-mim-intro{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    #intro-cow-pic{
+        width: 60%;
+    }
+
+    #sobre-mim-my-name{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #tuxedo-pic{
+        width: 60%;
+    }
+
+    #sobre-mim-intro-text-wrapper{
+        margin: 10px;
+    }
+
+    #sobre-mim-intro-text-wrapper h2, #my-name-text-wrapper h2, #my-name-text-wrapper h2, #sobre-mim-sports-text-wrapper h2{
+        font-size: 8vw;
+    }
+
+    #studying-pic{
+        width: 50%;
+        margin: 50px;
+    }
+
+    #sobre-mim-studying{
+        font-size: 2vw;
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    #arrow-icon{
+        display: none;
+    }
+
+    #sobre-mim-snoopy{
+        flex-direction: column;
+    }
+    
+    #me-and-snoopy-pic{
+        width: 50%;
+    }
+
+    #sobre-mim-snoopy-text-wrapper{
+        margin: 30px;
+        width: 90%;
+    }
+    
+    #sobre-mim-sports{
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto;
+        width: 90%;
+    }
+    
+    #arena-mrv-pic{
+        width: 50%;
+    }
+    
+    #sobre-mim-sports-text-wrapper{
+        margin: 0px 40px;
+    }
+    
+    #sobre-mim-ending{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto 50px;
+        width: 80%;
+    }
+    
+    #ending-pic{
+        width: 50%;
+    }
+        
+}
