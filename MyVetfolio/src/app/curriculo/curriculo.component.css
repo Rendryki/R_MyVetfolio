@@ -1,0 +1,59 @@
+#curriculo{
+    margin: 0px auto;
+    width: 100%;
+    border-top: 2px solid var(--main-color);
+}
+#curriculo-app-intro{
+    margin: 0px;
+    padding: 80px;
+    text-align: center;
+    border-bottom: 2px solid var(--main-color);
+
+}
+
+#curriculo-app-intro h1{
+    font-family: var(--highlight-font);
+    letter-spacing: 0.3em;
+    font-size: 4em;
+    color: var(--main-color);
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#curriculo-app-intro p {
+    background-color: transparent;
+    color: var(--trd-main-color);
+    font-size: 1.2em;
+    font-weight: light;
+    width: 65%;
+    margin: auto;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+strong{
+    font-family: var(--highlight-font);
+    background-color: transparent;
+    letter-spacing: 0.3em;
+}
+
+#curriculo-body{
+    width: 80%;
+    margin: 50px auto;
+}
+
+@media only screen and (min-width: 1200px){
+   
+}
+
+@media only screen and (max-width: 1199px) and (min-width:900px) {
+    
+}
+
+@media only screen and (max-width: 899px) and (min-width:700px) {
+    
+}
+
+@media only screen and (max-width: 699px) {
+
+}

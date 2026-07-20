@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-portfolio-detalhado',
+  selector: 'app-curriculo-medvet',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './portfolio-detalhado.component.html',
-  styleUrl: './portfolio-detalhado.component.css'
+  templateUrl: './curriculo-medvet.component.html',
+  styleUrl: './curriculo-medvet.component.css'
 })
-export class PortfolioDetalhadoComponent {
+export class CurriculoMedVet {
 
   ArrRepositories = new Array();
   ArrFilled: boolean = false;

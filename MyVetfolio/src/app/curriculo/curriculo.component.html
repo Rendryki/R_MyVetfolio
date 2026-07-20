@@ -1,0 +1,30 @@
+<div id="curriculo">
+
+    <div id="curriculo-app-intro">
+        
+     <h1 className="curriculo-title">Currículo</h1>
+     <p> Bem vindo a página do meu currículo, aqui você pode ver todo o meu currículo voltado à Medicina Veterinária, mas também pode ver meu currículo completo e com toda a minha jornada acadêmica e profissional, incluindo algumas etapas não finalizadas.</p>
+
+    </div>
+
+    <div id="curriculo-body">
+
+       <div id="btn-curriculo-type-wrapper">
+            <button (click)="changeValue()" id="btn-portfolio-type">{{btnText}}</button>
+        </div>
+
+        <div *ngIf="isDone">
+            
+            <app-curriculo-medvet></app-curriculo-medvet>
+        
+        </div>
+
+        <div *ngIf="!isDone">
+
+            <app-curriculo-completo></app-curriculo-completo>
+    
+        </div>
+
+    </div>
+
+</div>

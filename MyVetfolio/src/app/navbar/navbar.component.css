@@ -18,7 +18,7 @@
 }
 
 #navbar-logo-image{
-    width: 150px;    
+    width: 120px;    
     background-color: transparent;
 }
 
@@ -30,7 +30,7 @@
 .navbar-item a{
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: var(--normaltxt-color)
     font-style: italic;
     font-weight: bold;
 }

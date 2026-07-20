@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MundoVetComponent } from './mundo-vet.component';
+import { CurriculoMedVet } from './curriculo-medvet.component';
 
-describe('MundoVetComponent', () => {
-  let component: MundoVetComponent;
-  let fixture: ComponentFixture<MundoVetComponent>;
+describe('CurriculoMedVet', () => {
+  let component: CurriculoMedVet;
+  let fixture: ComponentFixture<CurriculoMedVet>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MundoVetComponent]
+      imports: [CurriculoMedVet]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(MundoVetComponent);
+    fixture = TestBed.createComponent(CurriculoMedVet);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

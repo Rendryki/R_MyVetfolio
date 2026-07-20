@@ -1,12 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root{
-    --main-font: "Mooli", sans-serif;
-    --highlight-font: "Chicle", serif;
+    --main-font: "Inter", sans-serif;
+    --highlight-font: "Bree Serif", serif;
 
     --bg-color: #F9F6EE;
-    --main-color: #4A90E2;
-    --scnd-main-color: #6ECA42; 
+    --main-color: #2563EB;
+    --scnd-main-color: #16A34A; 
+    --trd-main-color: #0F172A;
+    --normaltxt-color: #334155;
 }
 
 *{
