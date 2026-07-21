@@ -1,0 +1,52 @@
+{
+  "hash": "f72c8ed5",
+  "configHash": "3a2ca2a7",
+  "lockfileHash": "7463025d",
+  "browserHash": "4ecb7dc8",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "d2780910",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "142e1335",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "9d583c36",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "fa3583e2",
+      "needsInterop": false
+    },
+    "@emailjs/browser": {
+      "src": "../../../../../node_modules/@emailjs/browser/es/index.js",
+      "file": "@emailjs_browser.js",
+      "fileHash": "673ae6d1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-Y6JZDN7O": {
+      "file": "chunk-Y6JZDN7O.js"
+    },
+    "chunk-VJ77XAKQ": {
+      "file": "chunk-VJ77XAKQ.js"
+    },
+    "chunk-QCXNEKAC": {
+      "file": "chunk-QCXNEKAC.js"
+    },
+    "chunk-J4B6MK7R": {
+      "file": "chunk-J4B6MK7R.js"
+    }
+  }
+}
