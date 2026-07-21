@@ -1,24 +1,30 @@
 #portfolio-intro{
     background-color: var(--main-color);
-    margin: 0px;
-    padding: 80px;
+    margin: 0px auto;
     text-align: center;
+    border-top: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
 }
 
-#portfolio-intro h2{
-    background-color: transparent;
-    color: var(--bg-color);
+#portfolio-start{
+    border-bottom: 2px solid var(--main-color);
+    padding: 20px 0px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+#portfolio-start h2{
+    color: var(--main-color);
     font-family: var(--highlight-font);
     font-size: 4em;
-    margin: auto;
+    margin: 0px auto;
     text-align: center;
     letter-spacing: 0.3em;
     padding: 10px 0px;
 }
 
-#portfolio-intro p{
-    background-color: transparent;
-    color: var(--bg-color);
+#portfolio-start p{
+    color: var(--normaltxt-color);
     font-size: 1.2em;
     font-weight: light;
     width: 65%;
@@ -27,31 +33,96 @@
     padding: 10px 0px;
 }
 
+#portfolio-button{
+    margin: 0px auto;
+    width: 200px;
+    text-align: center;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+}
+
+#bttn-curriculo {
+    text-decoration: none;
+    color: var(--main-color);
+    width: 100%;
+    display: block;
+    font-weight: bold;
+}
+
+#bttn-curriculo:hover{
+    transition: 0.5s;
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    border-radius: 5px;
+
+}
+
 #portfolio-content{
     width: 80%;
     margin: 50px auto;
 }
 
-#btn-portfolio-type-wrapper{
-    width: 90%;
+#portfolio-image img{
+    width: 15%;
+    background-color: transparent;
+    display: block;
     margin: 0px auto;
-    text-align: end;
+    padding: 20px 0px;
 }
 
-#btn-portfolio-type{
-    width: 200px;
-    padding: 5px;
-    margin: 20px auto;
-    text-align: center;
-    background-color: transparent;
-    border: 2px solid var(--main-color);
-    border-radius: 10px;
+.portfolio-description{
+    padding: 20px 0px;
+}
+
+.portfolio-description h2{
+    padding: 15px 0px;
     font-family: var(--highlight-font);
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
-}   
+    color: var(--main-color);
+}
+
+.portfolio-description p{
+    padding: 5px 0px;
+    font-family: var(--main-font);
+    color: var(--normaltxt-color)
+}
+
+strong {
+    color: var(--main-color);
+}
+
+#ending {
+    border-top: 2px solid var(--main-color);
+    padding: 20px 0px;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#portfolio-image-footer img{
+    width: 15%;
+    background-color: transparent;
+    display: block;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
 
 @media only screen and (max-width: 699px){
+    #portfolio-start{
+    padding: 20px 0px;
+    width: 100%;
+    margin: 0px auto;
+    }
+
+    #portfolio-start h2{
+        font-size: 10vw;
+    }
+
+    #portfolio-start p{
+    padding: 20px 0px;
+    width: 90%;
+    margin: 0px auto;
+    }
+    
     #portfolio-intro p{
         width: 95%;
         margin: 0px auto;
@@ -62,7 +133,7 @@
         font-size: 10vw;
     }
 
-    #portfolio-intro{
-        padding: 80px 20px;
-    }
+    #portfolio-image-footer img, #portfolio-image img{
+    width: 40%;
+}
 }

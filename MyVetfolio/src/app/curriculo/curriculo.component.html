@@ -1,28 +1,145 @@
-<div id="curriculo">
+<div id="curriculo-page">
 
-    <div id="curriculo-app-intro">
+    <div id="curriculo-intro">
         
-     <h1 className="curriculo-title">Currículo</h1>
-     <p> Bem vindo a página do meu currículo, aqui você pode ver todo o meu currículo voltado à Medicina Veterinária, mas também pode ver meu currículo completo e com toda a minha jornada acadêmica e profissional, incluindo algumas etapas não finalizadas.</p>
+        <h2>Currículo</h2>
+        <p>Este é o meu currículo completo, contendo informações sobre minha formação acadêmica, experiências profissionais e habilidades.</p>
 
     </div>
 
-    <div id="curriculo-body">
-
-       <div id="btn-curriculo-type-wrapper">
-            <button (click)="changeValue()" id="btn-portfolio-type">{{btnText}}</button>
+    <div id="curriculo-content">
+        
+        <div id="curriculo-about-me" class="curriculo-section">
+        <h3>Sobre Mim</h3>
+        <p>Olá, tenho 22 anos e sou acadêmico do 6° período de Medicina Veterinária na Universidade Federal de Viçosa. Busco experiências práticas nas diferentes áreas da Medicina Veterinária, mas é relevante citar meu interesse profissional na área de Diagnóstico por Imagem e Videocirurgia de Cães e Gatos.</p>
         </div>
 
-        <div *ngIf="isDone">
-            
-            <app-curriculo-medvet></app-curriculo-medvet>
+        <div id="academic-formation" class="curriculo-section">
+        <h3>Formação Acadêmica</h3>
+        <ul class="academic-formation-list">
+            <li class="academic-formation-item">
+                <p>Graduação em Medicina Veterinária na Universidade Federal de Viçosa - 2024 à Atualmente.</p>
+            </li>
+            <li class="academic-formation-item">
+                <p>Ensino Médio e Técnico em Automação Industrial - 2019 à 2021.</p>
+            </li>
+        </ul>
+        </div>
+
+        <div id="experiences" class="curriculo-section">
+        <h3>Experiências e Estágios</h3>
+        <ul class="experiences-list">
+            <li class="experiences-item">
+                <p>Diretor de Marketing na Empresa Júnior Veterinarius - Universidade Federal de Viçosa - 01/2026 à Atualmente.</p>
+            </li>
+            <li class="experiences-item">
+                <p>Membro da diretoria de Marketing na Empresa Júnior Veterinarius - Universidade Federal de Viçosa - 06/2025 à 12/2025.</p>
+            </li>
+            <li class="experiences-item">
+                <p>Membro da diretoria de Marketing na Liga Acadêmica de Patologia Veterinária - Universidade Federal de Viçosa - 12/2024 à Atualmente.</p>
+
+            </li>
+            <li class="experiences-item">
+                <p>Estágio na Clínica e Cirurgia de Grandes Animais - Hospital Veterinário da Universidade Federal de Viçosa - 10/2024 à 01/2025.</p>
+            </li>
+            <li class="experiences-item">
+                <p>Estágio com Gado de Leite na Unidade de Ensino e Pesquisa de Gado de Leite da Universidade Federal de Viçosa - 03/2024 à 06/2024.</p>
+            </li>
+        </ul>
         
         </div>
 
-        <div *ngIf="!isDone">
+        <div id="contacts" class="curriculo-section">
+        <h3>Contatos</h3>
+        <div id="social-medias-list">
 
-            <app-curriculo-completo></app-curriculo-completo>
-    
+            <div id="gmail">
+                <a href="mailto:rendryki.silva@ufv.br" target="_blank"><img class="social-media-logo" src="../../assets/images/icons/email.png" alt="gmail logo"></a>
+                <p>Rendryki.silva&#64;ufv.br</p>
+            </div>
+
+            <div id="whatsapp">
+                <a href="tel:5531998465458" target="_blank"><img class="social-media-logo" src="../../assets/images/icons/phone.png" alt="whatsapp logo"></a>
+                <p>31 998465458</p>
+            </div>
+
+            <div id="linkedin">
+                <a href="https://www.linkedin.com/in/rendryki-melo/" target="_blank"><img class="social-media-logo" src="../../assets/images/icons/linkedin.png" alt="linkedin logo"></a>
+                <p>Rendryki-mMelo</p>
+            </div>
+
+            <div id="lattes">
+                <a href="https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=8F8DF394B8C6E854246A958FE818E556#" target="_blank"><img class="social-media-logo" src="../../assets/images/icons/curriculum.png" alt="lattes logo"></a>
+                <p>Currículo Lattes</p>
+            </div>
+            
+            <div id="github">
+                <a href="https://github.com/Rendryki" target="_blank"><img class="social-media-logo" src="../../assets/images/icons/github.png" alt="github logo"></a>
+                <p>Rendryki</p>
+            </div>
+
+        </div>
+
+        </div>
+
+        <div id="projects" class="curriculo-section">
+        <h3>Projetos</h3>
+        <ul class="projects-list">
+            <li class="projects-item">
+                <p>Iniciação Científica na área de Patologia Veterinária e Tecnologia - Universidade Federal de Viçosa - 03/2026 à Atualmente.</p>
+            </li>
+            <li class="projects-item">
+                <p>Empresa Júnior Veterinarius - Universidade Federal de Viçosa - 06/2025 à Atualmente.</p>
+            </li>
+            <li class="projects-item">
+                <p>Liga Acadêmica de Patologia Veterinária - Universidade Federal de Viçosa - 12/2024 à Atualmente.</p>
+            </li>
+            <li class="projects-item">
+                <p>Grupo de Estudos em Medicina Felina - Universidade Federal de Viçosa - 01/2025 à 06/2025.</p>
+            </li>
+        </ul>
+   
+        </div>
+
+        <div id="certifications" class="curriculo-section">
+        <h3>Certificações</h3>
+
+        <ul class="certifications-list">
+            <li class="certifications-item">
+                <p>Endoscopia e Videocirurgia Veterinária - Universidade Federal de Viçosa - 2025.</p>
+            </li>
+            <li class="certifications-item">
+                <p>Campanha de Vacinação Antirrábica - Universidade Federal de Viçosa - 2024.</p>
+            </li>
+            <li class="certifications-item">
+                <p>Mini-curso Exames ultrassonográficos na emergência e internação de pequenos animais - Universidade Federal de Viçosa - 2025.</p>
+            </li>
+            <li class="certifications-item">
+                <p>Mini-curso Atualização no tratamento das afecções de joelho em cães - Universidade Federal de Viçosa - 2025.</p>
+            </li>
+            <li class="certifications-item">
+                <p>Entre latidos e emergência: a preparação salva - Clínica+/VetMais Consultoria Júnior/Universidade Federal de Juiz de Fora - 2026.</p>
+            </li>
+        </ul>
+        </div>
+
+        <div id="languages" class="curriculo-section">
+        <h3>Idiomas</h3>
+            <div id="languages-list">
+            <div id="english" class="language-item">
+                <img class="language-icon" src="assets/images/icons/england.png" alt="Bandeira do Reino Unido">
+                <p>Inglês - Fluente</p>
+            </div>
+             <div id="spanish" class="language-item">
+                <img class="language-icon" src="assets/images/icons/spain.png" alt="Bandeira da Espanha">
+                <p>Espanhol - Intermediário</p>
+            </div>
+            <div id="french" class="language-item">
+                <img class="language-icon" src="assets/images/icons/france.png" alt="Bandeira da França">
+                <p>Francês - Básico</p>
+            </div>
+
+            </div>
         </div>
 
     </div>

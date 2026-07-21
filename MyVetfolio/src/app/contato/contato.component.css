@@ -23,7 +23,7 @@
     font-weight: light;
     width: 65%;
     margin: auto;
-    text-align: left;
+    text-align: center;
     padding: 10px 0px;
 }
 
@@ -31,7 +31,7 @@
     background-color: transparent;
     color: var(--main-color);
     font-family: var(--highlight-font);
-    font-size: 4em;
+    font-size: 2em;
     margin: 50px auto;
     width: 80%;
     letter-spacing: 0.3em;
@@ -47,7 +47,7 @@
 
 #social-medias-list div{
     margin: 50px auto;
-    width: 300px;
+    width: 250px;
     text-align: center;
 }
 
@@ -58,14 +58,14 @@
 }
 
 .social-media-logo{
-    width: 100px;
+    width: 70px;
 }
 
 #contato-send-message h2{
     background-color: transparent;
     color: var(--main-color);
     font-family: var(--highlight-font);
-    font-size: 4em;
+    font-size: 2em;
     margin: 50px auto;
     width: 80%;
     letter-spacing: 0.3em;
@@ -173,25 +173,13 @@ textarea{
     margin: 40px;
 }
 
-#endpage-logo{
-    width: 80%;
-    margin: 50px auto 100px;
-    text-align: center;
-}
-
-#endpage-logo img{
-    width: 400px;
-    margin: auto;
-}
-
-
 @media only screen and (max-width: 680px){
     #contato-intro{
         padding: 80px 0px;
     }
 
     #contato-intro h2{
-        font-size: 10vw;
+        font-size: 8vw;
     }
     
     #contato-intro p{

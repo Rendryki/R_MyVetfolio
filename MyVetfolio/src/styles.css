@@ -15,5 +15,6 @@
     margin: 0px;
     padding: 0px;
     background-color: var(--bg-color);
-    font-family: var(--main-font)
+    font-family: var(--main-font);
+    color: var(--normaltxt-color);
 }

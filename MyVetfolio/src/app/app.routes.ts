@@ -1,14 +1,14 @@
 import { Routes } from '@angular/router';
-import { CurriculoComponent } from './curriculo/curriculo.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { SobreMimComponent } from './sobre-mim/sobre-mim.component';
 import { ContatoComponent } from './contato/contato.component';
+import { CurriculoComponent } from './curriculo/curriculo.component';
+import { GaleriaComponent } from './galeria/galeria.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: 'curriculo', pathMatch: 'full' },
-    { path: 'curriculo', component: CurriculoComponent},
+    { path: '', redirectTo: 'portfolio', pathMatch: 'full' },
     { path: 'portfolio', component: PortfolioComponent},
-    { path: 'sobre-mim', component: SobreMimComponent},
+    { path: 'curriculo', component: CurriculoComponent },
     { path: 'contato', component: ContatoComponent},
+    { path: 'galeria', component: GaleriaComponent},
 
 ];
